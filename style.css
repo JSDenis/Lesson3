@@ -246,6 +246,19 @@ header ul li:first-child{
 }
 
 
+.container3 .images1{
+	width: 60%;
+	display: inline-block;
+	
+}
+
+.container3 .images1 img{
+	position: relative;
+	left: 100px;
+	top: 150px;
+}
+
+
 
 
 
