@@ -77,6 +77,10 @@ header ul li{
 	font-size: 16px;
 }
 
+header .items ul li:hover{
+	color: #16a085;
+}
+
 header ul li:first-child{
 	padding-left: 90px;
 }
@@ -261,4 +265,63 @@ header ul li:first-child{
 
 
 
+@media (max-width: 1200px){
+	header .items ul li{
+		display: block;
+		padding-left: 0;
+		padding-top: 15px;
+	}
+	
+	header .items ul{
+		text-align: center;
+	}
 
+	header .items h1{
+		padding-top: 106px;
+	}
+	
+	.container2 .description h2,.container2 .description p,
+	.container2 .description .buttons{
+		padding-left: 10%;
+	}
+
+	.container2 .description h2{
+		padding-top: 100px;
+	}
+
+	.container2 .description .buttons{
+		display:inherit;
+		margin-left: 0;
+	}
+
+	.container2 .description .buttons a{
+		margin: 0;
+	}
+
+	
+}
+
+@media(max-width: 768px){
+	.container2 .description{
+		width: 90%;
+	}
+	.container2 .description h2, .container2 .description p{
+		text-align: center;
+	}
+	.container2 .description .buttons{
+		display: block;
+		margin-left: 0;
+	}
+	.container2 .phone1{
+		width: 100%;
+		max-height: 490px;
+	}
+}
+
+
+@media(max-width: 425px){
+	header .items h1{
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+}
